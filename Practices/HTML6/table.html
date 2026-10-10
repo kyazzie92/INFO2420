@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Practice 6 - Tables</title>
+<style type="text/css">
+  table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+  }
+  td, th {
+    border: 1px solid #4a90d9;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+<h1>My Class Schedule</h1>
+<div>
+  <table border="1" cellpadding="8" width="80%">
+    <!-- Row 1: 6 equal cells (day headers) -->
+    <tr>
+      <td width="16.66%"><strong>Time</strong></td>
+      <td width="16.66%"><strong>Mon</strong></td>
+      <td width="16.66%"><strong>Tue</strong></td>
+      <td width="16.66%"><strong>Wed</strong></td>
+      <td width="16.66%"><strong>Thu</strong></td>
+      <td width="16.66%"><strong>Fri</strong></td>
+    </tr>
+    
+    <!-- Row 2 -->
+    <tr>
+      <td>Online</td>
+      <td>INFO2420</td>
+      <td></td>
+      <td>INFO2420</td>
+      <td></td>
+      <td rowspan="2">IT2600<br>(Online)</td>
+    </tr>
+    
+    <!-- Row 3: left cell + cell that spans 4 columns -->
+    <tr>
+      <td></td>
+      <td colspan="4">Not occuring at the same time / Flexible</td>
+    </tr>
+    
+    <!-- Row 4: left cell + cell that spans the remaining 5 columns -->
+    <tr>
+      <td>Notes</td>
+      <td colspan="5">Part-time online student – only 2 classes this term</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
