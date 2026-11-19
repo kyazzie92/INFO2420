@@ -1,0 +1,78 @@
+/* body – Step 4 */
+body {
+    margin: 0;
+    background-image: url('Images/background.gif');
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+/* header – Step 4 */
+header {
+    width: 760px;
+    height: 150px;
+    background-color: #CCCCCC;
+    text-align: center;
+    padding-top: 10px;
+    border: dashed medium navy;
+    margin: auto;
+}
+
+/* */
+#container {
+    width: 760px;
+    background-image: url('Images/inner_background.gif');
+    background-repeat: repeat-y;
+    overflow: hidden;
+    border-right: dashed medium navy;
+    border-left: dashed medium navy;
+    margin: auto;
+}
+
+/* Step 4 */
+nav {
+    float: left;
+    width: 110px;
+    padding-left: 10px;
+}
+
+/* this is the section main content area to Step 4 */
+section {
+    float: left;
+    width: 600px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* my footer – Step 4 */
+footer {
+    text-align: center;
+    width: 760px;
+    height: 70px;
+    border: dashed medium navy;
+    background-color: #CCCCCC;
+    margin: auto;
+}
+
+/* possibly the logo class – Step 5 */
+.logoleft {
+    float: left;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+/* this is navigation links – Step 5 */
+nav a {
+    border: 2px inset #CCCCCC;
+    background-color: maroon;
+    line-height: 250%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+/* based on step 5, this is hover state – Step 5 */
+nav a:hover {
+    color: yellow;
+    border: 2px outset #CCCCCC;
+}
