@@ -1,4 +1,4 @@
-/* body – Step 4 */
+/* body â€“ Step 4 */
 body {
     margin: 0;
     background-image: url('Images/background.gif');
@@ -6,7 +6,7 @@ body {
     height: auto;
 }
 
-/* header – Step 4 */
+/* header â€“ Step 4 */
 header {
     width: 760px;
     height: 150px;
@@ -17,8 +17,8 @@ header {
     margin: auto;
 }
 
-/* */
-#container {
+/* section â€“ Step 4 (this is the outer 760px container that holds nav + article) */
+section {
     width: 760px;
     background-image: url('Images/inner_background.gif');
     background-repeat: repeat-y;
@@ -28,22 +28,22 @@ header {
     margin: auto;
 }
 
-/* Step 4 */
+/* nav â€“ Step 4 */
 nav {
     float: left;
     width: 110px;
     padding-left: 10px;
 }
 
-/* this is the section main content area to Step 4 */
-section {
+/* article â€“ Step 4 (main content column) */
+article {
     float: left;
     width: 600px;
     padding: 5px;
     text-align: center;
 }
 
-/* my footer – Step 4 */
+/* footer â€“ Step 4 */
 footer {
     text-align: center;
     width: 760px;
@@ -53,14 +53,14 @@ footer {
     margin: auto;
 }
 
-/* possibly the logo class – Step 5 */
+/* .logoleft â€“ Step 5 */
 .logoleft {
     float: left;
     padding-top: 30px;
     padding-left: 15px;
 }
 
-/* this is navigation links – Step 5 */
+/* nav a â€“ Step 5 */
 nav a {
     border: 2px inset #CCCCCC;
     background-color: maroon;
@@ -71,7 +71,7 @@ nav a {
     text-decoration: none;
 }
 
-/* based on step 5, this is hover state – Step 5 */
+/* nav a:hover â€“ Step 5 */
 nav a:hover {
     color: yellow;
     border: 2px outset #CCCCCC;
