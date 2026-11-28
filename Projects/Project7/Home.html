@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Native Cooking of Utah - Home</title>
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="myscripts.js"></script>
+</head>
+<body onload="preloadImages()">
+
+<div id="container">
+
+    <header>
+        <!-- Logo with rollover (from Project 6) -->
+        <a href="Home.html" 
+           onmouseover="document.logo.src=logo2.src;" 
+           onmouseout="document.logo.src=logo1.src;">
+            <img src="Images/logo1.jpg" name="logo" id="logo" 
+                 width="140" height="140" alt="Native Cooking of Utah Logo">
+        </a>
+
+        <!-- Banner from Project 5 -->
+        <img src="Images/banner.jpg" id="banner" 
+             alt="Native Cooking of Utah Banner">
+
+        <!-- Navigation nested inside header, ~30% width, floated right -->
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Tributes.html">Tributes</a></li>
+                <li><a href="Survey.html">Survey</a></li>
+                <li><a href="Favorites.html">Favorites</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <!-- Main heading with business name -->
+            <h1>Native Cooking of Utah</h1>
+
+            <!-- Exact required welcome text -->
+            <p>
+                Welcome to Native Cooking of Utah! 
+                If you love to cook like we do, you should enjoy looking around this site.  
+                Take a look at our Recipes and take the opportunity to complete our survey.
+            </p>
+
+            <!-- Thumbnail / full-size image swap section (from Project 6) -->
+            <h2>Featured Images</h2>
+
+            <div id="thumbs">
+                <img src="Images/thumbnails/image1sm.jpg" alt="Couple Biking" 
+                     onmouseover="swapImage(0);">
+                <img src="Images/thumbnails/image2sm.jpg" alt="Together at Sunset" 
+                     onmouseover="swapImage(1);">
+                <img src="Images/thumbnails/image3sm.jpg" alt="Motorcycle Couple" 
+                     onmouseover="swapImage(2);">
+                <img src="Images/thumbnails/image4sm.jpg" alt="Skiing Together" 
+                     onmouseover="swapImage(3);">
+            </div>
+
+            <div id="image">
+                <img id="theImage" src="Images/fullsize/image2lg.jpg" 
+                     alt="Together at Sunset" width="480">
+                <h3 id="bottomText">Together at Sunset</h3>
+            </div>
+
+            <!-- Mini-tribute (2–3 sentences + image + more >>) -->
+            <h2>Mini Tribute</h2>
+            <div class="mini-tribute">
+                <img src="Images/DutchOvenSm.jpg" alt="Dutch oven cooking" 
+                     class="tribute-img">
+                <p>
+                    Grandma Helen shared her family’s traditional Dutch oven recipes 
+                    passed down through generations of Utah cooks. Her stories and 
+                    techniques continue to inspire home cooks across the state. 
+                    <a href="Tributes.html">more &gt;&gt;</a>
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>
+            <a href="mailto:yourname@email.com">Webmaster: yourname@email.com</a>
+        </p>
+        <p>This web site has been created solely for educational purposes.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
